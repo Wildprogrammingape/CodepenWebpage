@@ -1,0 +1,121 @@
+<div class="topdiv">
+  <h1> This is Long's page of interests</h1>
+  <p> Hello! You can learn about the <b>interests of <em>Long</em></b> on this webpage.</p>
+</div>
+<div>
+  <h2> Now, what is your favourite things to do during spare time?</h2>
+  <p> Here is my answers of <b><em>top 5</em> </b>favourite interests:</p>
+  <h3>1.Baketball</h3>
+  <h3>2.Music</h3>
+  <p>This is my favourite music <a href="https://www.youtube.com/watch?v=oKar-tF__ac"> Sparks fly </a> by Taylor Swift 
+  </p>
+  <h3>3.Programming</h3>
+  <p>I am now learning HTML,CSS and Javascript and <a href="https://www.coursera.org/learn/duke-programming-web/home/notes"> notes for learning HTML</a> are attached
+  </p>
+  <h3>4.Travel</h3>
+  <p>My first place of the following destination will be Tokyo, which is a really attractive place to me.</p> <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Colorful_neon_street_signs_in_Kabukich%C5%8D%2C_Shinjuku%2C_Tokyo.jpg/1200px-Colorful_neon_street_signs_in_Kabukich%C5%8D%2C_Shinjuku%2C_Tokyo.jpg width="30%" id="tokyo"/>
+  </p>There are also several places where I am willing to visit next:
+    <ul>
+      <li>Singapore</li>
+      <li>Seattle in America</li>
+      <li>Vancouver and Toronto in Canada</li>
+    </ul>
+  </p> 
+  <h3>5.Movie</h3>
+</div>
+<div>
+  <h2>Next, would you give a list of your favourite food or drink?</h2>
+    <p>Sure. Here is the list with my preferrence:
+      <ol>
+        <li>Bean related food, including peanut, soybean, etc.</li>       
+        <li>Sprite and Root beer</li>
+        <li>Milk with strawberry flavor</li>
+      </ol>
+  <h2>But you didn't mention the fruit, could you give a table of your favourite fruit?</h2>
+    <p>Okay, here it is:</p>
+  <p>
+  <table>
+    <tr>
+      <th>Fruit 1</th>
+      <th>Fruit 2</th>
+      <th>Fruit 3</th>
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>Strawberry</td>
+      <td>watermelon</td>
+    </tr>
+  </table>
+</p>
+</div>
+
+<!-- My Button Practice -->
+<h1>Buttons with div practice</h1>
+<div id="div1" class="yellowback">
+  Here is div one
+</div>
+
+<div id="div2" class="blueback">
+  Here is div two
+</div>
+
+<!-- <input type = "button" value = "alert button" onclick = "dochange()">     -->
+<input type = "button" value = "change color" onclick = "changecolor()"> 
+<input type = "button" value = "change Text" onclick = "changeText()"> 
+
+<!-- Canvas Practice -->
+<h1>Canvas practice</h1>
+<canvas id="canvas1">
+</canvas>
+
+<canvas id="canvas2">
+</canvas>
+
+<p>
+  <input type = "button" value = "make magenta" onclick = "domagenta()"> 
+  <input type = "button" value = "make blue" onclick = "doblue()">
+</p>
+
+<!-- color picker -->
+<canvas id="canvas3">
+</canvas>
+
+<p>
+<input type="color" value="#001A57" id="clr" onchange="docolor()">
+<input type="range" min="10" max="130" value="10" id="slider" oninput="dosquare()">
+</p>
+
+<!-- SimpleImage Library Source -->
+<script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js">
+</script>
+
+<!-- Image Upload  -->
+<h2>Image upload and grayscale</h2>
+<canvas id="canv">  </canvas>
+
+<p>Filename:
+  <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+</p>
+
+<!-- Make Graysacle -->
+<p>
+  <input type="button" value="Make Grayscale" onclick="makeGray()">
+</p>
+
+<!-- Green Screen -->
+<h2>Green Screen !</h2>
+<canvas id="canvf">  </canvas>
+<canvas id="canvb">  </canvas>
+<p>Foreground:
+  <input type="file" multiple="false" accept="image/*" id="foreinput" onchange="loadForegroundImage()">
+</p>
+
+<p>Background:
+  <input type="file" multiple="false" accept="image/*" id="backinput" onchange="loadBackgroundImage()">
+</p>
+
+<p>
+  <input type="button" value="Create Composite" onclick="doGreenScreen()">
+  <input type="button" value="Clear canvas" onclick="clearCanvas()">
+</p>
+

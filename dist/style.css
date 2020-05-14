@@ -1,0 +1,92 @@
+body{
+  /*Background color for entire page*/
+  background-color: wheat;   
+  /*  GhostWhite */
+}
+
+h1{
+  font-family:arial;
+  color:rgb(24,40,220);
+}
+
+p{
+  /* font size for all paragraph */  
+ font-size:14pt;     
+}
+
+td{
+  text-align: right;
+}
+
+.topdiv{
+  border-top-style:solid;
+  border-bottom-style:solid;
+  border-color:RoyalBlue;
+  border-width:1px;
+  padding-left:5px;
+  text-align:center;
+  color: green;
+}
+#tokyo{
+  float:center;
+}
+
+/* #div1{
+  width: 140pt;
+  padding: 5pt;
+  margin: 10pt;
+  border: 1pt solid lightgray;
+  font-size: 16pt;
+  background-color:lightsteelblue;
+}
+#div2{
+  width: 140pt;
+  padding: 5pt;
+  margin: 10pt;
+  border: 1pt solid lightgray;
+  font-size: 16pt;
+  background-color:rgba(200,56,56,0.6);
+} */
+
+/* Define Class */
+.blueback{
+  width: 140pt;
+  padding: 5pt;
+  margin: 10pt;
+  border: 1pt solid lightgray;
+  font-size: 16pt;
+  background-color:blue;  
+}
+.orangeback{
+  width: 140pt;
+  padding: 5pt;
+  margin: 10pt;
+  border: 1pt solid lightgray;
+  font-size: 16pt;
+  background-color:orange;
+}
+.yellowback{
+  width: 140pt;
+  padding: 5pt;
+  margin: 10pt;
+  border: 1pt solid lightgray;
+  font-size: 16pt;
+  background-color:yellow;
+}
+
+/* canvas format */
+canvas{
+  width: 200pt;
+  height: 100pt;
+  border: 1pt solid lightgray;
+}
+
+#canvas3{
+  width: 200pt;
+  height: 100pt;
+  background-color:green;
+}
+
+input{
+  font-size:14pt;
+}
